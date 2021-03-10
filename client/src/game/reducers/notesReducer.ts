@@ -125,7 +125,6 @@ function parseNote(variant: Variant, text: string): CardNote {
     variant,
     keywords,
   );
-
   const chopMoved = checkNoteKeywordsForMatch(
     [
       "cm",
